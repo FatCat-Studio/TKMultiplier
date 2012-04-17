@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55153855153DF43900EE6C96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55153854153DF43900EE6C96 /* Cocoa.framework */; };
+		5515385F153DF43900EE6C96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5515385D153DF43900EE6C96 /* InfoPlist.strings */; };
+		55153861153DF43900EE6C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55153860153DF43900EE6C96 /* main.m */; };
+		55153865153DF43900EE6C96 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55153863153DF43900EE6C96 /* Credits.rtf */; };
+		55153868153DF43900EE6C96 /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55153867153DF43900EE6C96 /* TKAppDelegate.m */; };
+		5515386B153DF43900EE6C96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55153869153DF43900EE6C96 /* MainMenu.xib */; };
+		55153873153DF57500EE6C96 /* TKAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55153872153DF57500EE6C96 /* TKAppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55153850153DF43900EE6C96 /* TKConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55153854153DF43900EE6C96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55153857153DF43900EE6C96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55153858153DF43900EE6C96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55153859153DF43900EE6C96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5515385C153DF43900EE6C96 /* TKConvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKConvert-Info.plist"; sourceTree = "<group>"; };
+		5515385E153DF43900EE6C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55153860153DF43900EE6C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55153862153DF43900EE6C96 /* TKConvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKConvert-Prefix.pch"; sourceTree = "<group>"; };
+		55153864153DF43900EE6C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55153866153DF43900EE6C96 /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		55153867153DF43900EE6C96 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		5515386A153DF43900EE6C96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55153871153DF57500EE6C96 /* TKAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAppController.h; sourceTree = "<group>"; };
+		55153872153DF57500EE6C96 /* TKAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5515384D153DF43900EE6C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55153855153DF43900EE6C96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55153845153DF43900EE6C96 = {
+			isa = PBXGroup;
+			children = (
+				5515385A153DF43900EE6C96 /* TKConvert */,
+				55153853153DF43900EE6C96 /* Frameworks */,
+				55153851153DF43900EE6C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55153851153DF43900EE6C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55153850153DF43900EE6C96 /* TKConvert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55153853153DF43900EE6C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55153854153DF43900EE6C96 /* Cocoa.framework */,
+				55153856153DF43900EE6C96 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55153856153DF43900EE6C96 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55153857153DF43900EE6C96 /* AppKit.framework */,
+				55153858153DF43900EE6C96 /* CoreData.framework */,
+				55153859153DF43900EE6C96 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5515385A153DF43900EE6C96 /* TKConvert */ = {
+			isa = PBXGroup;
+			children = (
+				55153866153DF43900EE6C96 /* TKAppDelegate.h */,
+				55153867153DF43900EE6C96 /* TKAppDelegate.m */,
+				55153869153DF43900EE6C96 /* MainMenu.xib */,
+				55153871153DF57500EE6C96 /* TKAppController.h */,
+				55153872153DF57500EE6C96 /* TKAppController.m */,
+				5515385B153DF43900EE6C96 /* Supporting Files */,
+			);
+			path = TKConvert;
+			sourceTree = "<group>";
+		};
+		5515385B153DF43900EE6C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5515385C153DF43900EE6C96 /* TKConvert-Info.plist */,
+				5515385D153DF43900EE6C96 /* InfoPlist.strings */,
+				55153860153DF43900EE6C96 /* main.m */,
+				55153862153DF43900EE6C96 /* TKConvert-Prefix.pch */,
+				55153863153DF43900EE6C96 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5515384F153DF43900EE6C96 /* TKConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5515386E153DF43900EE6C96 /* Build configuration list for PBXNativeTarget "TKConvert" */;
+			buildPhases = (
+				5515384C153DF43900EE6C96 /* Sources */,
+				5515384D153DF43900EE6C96 /* Frameworks */,
+				5515384E153DF43900EE6C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKConvert;
+			productName = TKConvert;
+			productReference = 55153850153DF43900EE6C96 /* TKConvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55153847153DF43900EE6C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = MIPT;
+			};
+			buildConfigurationList = 5515384A153DF43900EE6C96 /* Build configuration list for PBXProject "TKConvert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55153845153DF43900EE6C96;
+			productRefGroup = 55153851153DF43900EE6C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5515384F153DF43900EE6C96 /* TKConvert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5515384E153DF43900EE6C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5515385F153DF43900EE6C96 /* InfoPlist.strings in Resources */,
+				55153865153DF43900EE6C96 /* Credits.rtf in Resources */,
+				5515386B153DF43900EE6C96 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5515384C153DF43900EE6C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55153861153DF43900EE6C96 /* main.m in Sources */,
+				55153868153DF43900EE6C96 /* TKAppDelegate.m in Sources */,
+				55153873153DF57500EE6C96 /* TKAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5515385D153DF43900EE6C96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5515385E153DF43900EE6C96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55153863153DF43900EE6C96 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55153864153DF43900EE6C96 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55153869153DF43900EE6C96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5515386A153DF43900EE6C96 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5515386C153DF43900EE6C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5515386D153DF43900EE6C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5515386F153DF43900EE6C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKConvert/TKConvert-Prefix.pch";
+				INFOPLIST_FILE = "TKConvert/TKConvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55153870153DF43900EE6C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKConvert/TKConvert-Prefix.pch";
+				INFOPLIST_FILE = "TKConvert/TKConvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5515384A153DF43900EE6C96 /* Build configuration list for PBXProject "TKConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5515386C153DF43900EE6C96 /* Debug */,
+				5515386D153DF43900EE6C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5515386E153DF43900EE6C96 /* Build configuration list for PBXNativeTarget "TKConvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5515386F153DF43900EE6C96 /* Debug */,
+				55153870153DF43900EE6C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55153847153DF43900EE6C96 /* Project object */;
+}
