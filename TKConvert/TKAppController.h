@@ -9,10 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface TKAppController : NSObject
-@property (assign) IBOutlet NSTextField *number;
-@property (assign) IBOutlet NSSlider *setter;
-@property (assign) IBOutlet NSTextField *showMultiplier;
-@property (assign) IBOutlet NSTextField *output;
-- (IBAction)ButtonClick:(id)sender;
-- (IBAction)setMult:(id)sender;
+@property (assign) int first;
+@property (assign) int second;
+@property (assign) int output;
 @end
