@@ -9,23 +9,24 @@
 #import "TKAppController.h"
 
 @implementation TKAppController
-@synthesize setter;
 @synthesize number;
 @synthesize multip;
 @synthesize output;
 
 - (IBAction)setMult:(id)sender{
-    int iMult = [setter intValue];
-    int iNumber = [number intValue];
-    if ((iNumber > 0) && (iNumber <1000)){
-        int iResult = iMult * iNumber;
-        [output setIntValue:iResult];
-    }else{
-        [output setStringValue:@""];
-        [number setStringValue:@""];
-    }
 	if ([sender isKindOfClass:[NSSlider class]])
-		[multip setIntValue:iMult];
+		multip.intValue=((NSSlider*)sender).intValue;
+    int iMult = multip.intValue;
+    int iNumber = number.intValue;
+	//Какое-то это у тебя странное условие. Нах?
+    if ((iNumber > 0) && (iNumber <100)){
+        int iResult = iMult * iNumber;
+        output.intValue=iResult;
+    }else{
+        output.stringValue=@"";
+        number.stringValue=@"";
+    }
+	
 }
 
 
